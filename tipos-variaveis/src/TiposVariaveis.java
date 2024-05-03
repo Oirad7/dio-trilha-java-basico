@@ -1,4 +1,4 @@
-public class App {
+public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
         double salarioMinimo = 2500D;
         long long = 16941900111;
