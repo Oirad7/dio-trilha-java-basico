@@ -1,6 +1,11 @@
 import java.util.Locale;
 import java.util.Scanner;
-
+/**
+ * aplicação para resolução desafio bootcamp Santander backend com java 
+ * cadastro de contas correntes pelo terminal
+ *  
+ * @author Dario Moura
+ */
 
 public class ContaTerminal {
 
@@ -23,7 +28,7 @@ public class ContaTerminal {
         System.out.println("Por favor, digite o saldo da conta !");
         conta.saldo = scanner.nextDouble();
 
-        System.out.println("Olá " + conta.nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + conta.agencia + ", conta.conta " + conta.numero + " e seu saldo " + conta.saldo + " já está disponível para saque");
+        System.out.println("Olá " + conta.nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + conta.agencia + ", conta " + conta.numero + " e seu saldo " + conta.saldo + " já está disponível para saque");
          
     }
 }
